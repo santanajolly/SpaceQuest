@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceQuest", "SpaceQuest.csproj", "{7A94A6C1-7CDB-4E59-A09B-0543C367E4F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceLibrary", "..\SpaceLibrary\SpaceLibrary.csproj", "{F2EE0F59-0E78-4FFE-A7FB-687FF5D67E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceTest", "..\SpaceTest\SpaceTest.csproj", "{2057B588-1C19-41CF-A161-016142F62471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7A94A6C1-7CDB-4E59-A09B-0543C367E4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A94A6C1-7CDB-4E59-A09B-0543C367E4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A94A6C1-7CDB-4E59-A09B-0543C367E4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EE0F59-0E78-4FFE-A7FB-687FF5D67E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EE0F59-0E78-4FFE-A7FB-687FF5D67E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EE0F59-0E78-4FFE-A7FB-687FF5D67E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EE0F59-0E78-4FFE-A7FB-687FF5D67E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2057B588-1C19-41CF-A161-016142F62471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2057B588-1C19-41CF-A161-016142F62471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2057B588-1C19-41CF-A161-016142F62471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2057B588-1C19-41CF-A161-016142F62471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

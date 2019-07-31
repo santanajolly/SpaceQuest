@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Space_Game
 {
@@ -33,48 +28,101 @@ namespace Space_Game
             Console.WriteLine("Game Over");
             Console.ReadLine();
         }
+
         public void Win()
         {
             Console.WriteLine("You have made it home");
 
             //home
         }
+
         public void Game()
         {
             //TODO
         }
 
-         enum MenuOptions
+        public Enumerations.Navigation Options()
         {
-            Sell, Buy, Travel, CheckInventory, Map
+            Console.WriteLine("Would you like to Buy, Sell, Travel, Check Inventory, or See Map?");
+            Console.WriteLine("Select 1 to Buy");
+            Console.WriteLine("Select 2 to Sell ");
+            Console.WriteLine("Select 3 to Travel");
+            Console.WriteLine("Select 4 to Check Inventory");
+            Console.WriteLine("Select 5 to See Map");
+            string choice = Console.ReadLine();
+            int num = int.Parse(choice);
+            Enumerations.Navigation nav = (Enumerations.Navigation)num;
+
+            return (nav);
 
         }
 
-         public double menuInput()
-         {
-             Console.WriteLine("Select 1 to Buy");
-            
-         }
+        public void GetInput(Enumerations.Navigation choice)
+        {
+            var bi = new Binopoly(); 
+            switch (choice)
+            {
+                case Enumerations.Navigation.Buy:
+                {
+                    
+                    //if (this.planet = 1)
+                    //{
+                    //    bi.Buy();
+                    //}
+                }
+            }
+        }
+    //    public string GetInput()
+    //    {
+    //        //string input = Console.ReadLine();
+    //        //switch (input)
+    //        //{
+    //        //    case 1:
+    //        //    {
 
-        //Console.WriteLine("Would you like to Buy, Sell, Travel, Check Inventory, or See Map?");
-            //Console.WriteLine("Select 1 to Buy");
+    //        //    }
 
-            ////link to inventory
-            //Console.WriteLine("Select 2 to Sell");
-            ////link to inventory
-            //Console.WriteLine("Select 3 to Travel");
-            ////options to Planets
-            ////if statements for travel 
-            ////if fuel < 2 cannot travel 
-            //Console.WriteLine("Select 4 to Check Inventory");
-            ////link to inventory
-            //Console.WriteLine("Select 5 to See Map");
-            ////im going to make map 
+    //        //    case 2:
+    //        //    {
 
-            //string option = Console.ReadLine();
-            ////switch methods 
-        
+    //        //    }
 
+    //        //    case 3:
+    //        //    {
+
+    //        //    }
+
+    //        //    case 4:
+    //        //    {
+
+    //        //    }
+
+    //        //    case 5:
+    //        //    {
+
+    //        //    }
+
+    //    }
     }
+
+
+    ////link to inventory
+    //    //Console.WriteLine("Select 2 to Sell");
+    //    //link to inventory
+    //    Console.WriteLine("Select 3 to Travel");
+    //    //options to Planets
+    //    //if statements for travel 
+    //    //if fuel < 2 cannot travel 
+    //    Console.WriteLine("Select 4 to Check Inventory");
+    //    //link to inventory
+    //    Console.WriteLine("Select 5 to See Map");
+    //    //im going to make map 
+
+    //    string option = Console.ReadLine();
+    //    //switch methods 
+
+
 }
-}
+
+
+

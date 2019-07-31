@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace Space_Game
         static void Main(string[] args)
         {
             var play = new Player();
-            var plan = new Planets();
+            var plan = new Enumerations.Planets();
             var me = new Menu();
             var inv = new Inventory();
             var ha = new HashCity();
@@ -26,6 +27,9 @@ namespace Space_Game
             //while (balance < 1000)
             //{
             bi.Planet();
+            
+           Enumerations.Navigation navigation =  me.Options();
+
 
             //THIS IS CHANGE 
 
