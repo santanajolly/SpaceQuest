@@ -41,87 +41,29 @@ namespace Space_Game
             //TODO
         }
 
-        public Enumerations.Navigation Options()
+        public void Options()
         {
             Console.WriteLine("Would you like to Buy, Sell, Travel, Check Inventory, or See Map?");
             Console.WriteLine("Select 1 to Buy");
-            Console.WriteLine("Select 2 to Sell ");
+
+            //link to inventory
+            Console.WriteLine("Select 2 to Sell");
+            //link to inventory
             Console.WriteLine("Select 3 to Travel");
+            //options to Planets
+            //if statements for travel 
+            //if fuel < 2 cannot travel 
             Console.WriteLine("Select 4 to Check Inventory");
+            //link to inventory
             Console.WriteLine("Select 5 to See Map");
-            string choice = Console.ReadLine();
-            int num = int.Parse(choice);
-            Enumerations.Navigation nav = (Enumerations.Navigation)num;
+            //im going to make map 
 
-            return (nav);
+            string option = Console.ReadLine();
+            //switch methods 
+        
 
-        }
-
-        public void GetInput(Enumerations.Navigation choice)
-        {
-            var bi = new Binopoly(); 
-            switch (choice)
-            {
-                case Enumerations.Navigation.Buy:
-                {
-                    
-                    //if (this.planet = 1)
-                    //{
-                    //    bi.Buy();
-                    //}
-                }
-            }
-        }
-    //    public string GetInput()
-    //    {
-    //        //string input = Console.ReadLine();
-    //        //switch (input)
-    //        //{
-    //        //    case 1:
-    //        //    {
-
-    //        //    }
-
-    //        //    case 2:
-    //        //    {
-
-    //        //    }
-
-    //        //    case 3:
-    //        //    {
-
-    //        //    }
-
-    //        //    case 4:
-    //        //    {
-
-    //        //    }
-
-    //        //    case 5:
-    //        //    {
-
-    //        //    }
-
-    //    }
     }
-
-
-    ////link to inventory
-    //    //Console.WriteLine("Select 2 to Sell");
-    //    //link to inventory
-    //    Console.WriteLine("Select 3 to Travel");
-    //    //options to Planets
-    //    //if statements for travel 
-    //    //if fuel < 2 cannot travel 
-    //    Console.WriteLine("Select 4 to Check Inventory");
-    //    //link to inventory
-    //    Console.WriteLine("Select 5 to See Map");
-    //    //im going to make map 
-
-    //    string option = Console.ReadLine();
-    //    //switch methods 
-
-
+}
 }
 
 
