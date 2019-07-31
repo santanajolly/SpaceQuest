@@ -54,6 +54,8 @@ namespace Space_Game
             //link to inventory
             Console.WriteLine("Select 3 to Travel");
             //options to Planets
+            //if statements for travel 
+            //if fuel < 2 cannot travel 
             Console.WriteLine("Select 4 to Check Inventory");
             //link to inventory
             Console.WriteLine("Select 5 to See Map");
@@ -61,11 +63,7 @@ namespace Space_Game
 
             string option = Console.ReadLine();
             //switch methods 
-           enum Option
-        {
-            Buy = 1,
-            Sell = 2;
-        }
+        
 
     }
 }
