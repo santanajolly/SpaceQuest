@@ -16,8 +16,11 @@ namespace Space_Game
             BugBay = 3,
             HeapStreet = 4, 
             Typotopia = 5
+        }
 
-                
+        public double ChooseTravel(travel)
+        {
+            switch 
         }
 
 

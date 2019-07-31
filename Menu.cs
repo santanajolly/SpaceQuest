@@ -44,25 +44,35 @@ namespace Space_Game
             //TODO
         }
 
-        public void Options()
+         enum MenuOptions
         {
-            Console.WriteLine("Would you like to Buy, Sell, Travel, Check Inventory, or See Map?");
-            Console.WriteLine("Select 1 to Buy");
+            Sell, Buy, Travel, CheckInventory, Map
 
-            //link to inventory
-            Console.WriteLine("Select 2 to Sell");
-            //link to inventory
-            Console.WriteLine("Select 3 to Travel");
-            //options to Planets
-            //if statements for travel 
-            //if fuel < 2 cannot travel 
-            Console.WriteLine("Select 4 to Check Inventory");
-            //link to inventory
-            Console.WriteLine("Select 5 to See Map");
-            //im going to make map 
+        }
 
-            string option = Console.ReadLine();
-            //switch methods 
+         public double menuInput()
+         {
+             Console.WriteLine("Select 1 to Buy");
+            
+         }
+
+        //Console.WriteLine("Would you like to Buy, Sell, Travel, Check Inventory, or See Map?");
+            //Console.WriteLine("Select 1 to Buy");
+
+            ////link to inventory
+            //Console.WriteLine("Select 2 to Sell");
+            ////link to inventory
+            //Console.WriteLine("Select 3 to Travel");
+            ////options to Planets
+            ////if statements for travel 
+            ////if fuel < 2 cannot travel 
+            //Console.WriteLine("Select 4 to Check Inventory");
+            ////link to inventory
+            //Console.WriteLine("Select 5 to See Map");
+            ////im going to make map 
+
+            //string option = Console.ReadLine();
+            ////switch methods 
         
 
     }
