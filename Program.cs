@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using SpaceLibrary;
+using static SpaceLibrary.Enumerations;
 
 namespace Space_Game
 {
@@ -11,41 +13,14 @@ namespace Space_Game
     {
         static void Main(string[] args)
         {
-            var play = new Player();
-            var plan = new Enumerations.Planets();
+            var player = new Player();
             var me = new Menu();
-            var inv = new Inventory();
-            var ha = new HashCity();
-            var ty = new Typotopia();
-            var bb = new BugBay();
-            var hc = new HeapStreet();
-            var bi = new Binopoly();
-            double balance = 20;
 
+          
             me.Start();
+            me.Options(player);
 
-            //while (balance < 1000)
-            //{
-            bi.Planet();
-            
-           Enumerations.Navigation navigation =  me.Options();
-
-
-            //THIS IS CHANGE 
-
-
-
-
-            //i'm going through changes
-
-
-
-
-
-
-
-
-            //}
+            //Enumerations.Navigation navigation = me.Options();
 
         }
     }
