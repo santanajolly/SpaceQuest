@@ -14,13 +14,11 @@ namespace Space_Game
         static void Main(string[] args)
         {
             var player = new Player();
-            var me = new Menu();
+            var menu = new Menu();
+            menu.Start();
+            menu.Options(player);
 
-          
-            me.Start();
-            me.Options(player);
-
-            //Enumerations.Navigation navigation = me.Options();
+            
 
         }
     }
