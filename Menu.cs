@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
-using System.Threading.Tasks;
+using System.Xml.Serialization;
+using static Space_Game.Enumerations;
+
 
 namespace Space_Game
 {
@@ -17,54 +17,108 @@ namespace Space_Game
                 ||Q |||u |||e |||s |||t |||       |||f |||o |||r |||       |||H |||o |||m |||e ||
                 ||__|||__|||__|||__|||__|||_______|||__|||__|||__|||_______|||__|||__|||__|||__||
                 |/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|
-                                                                                                                                                                      
-
-
                                     ");
             Thread.Sleep(3000);
             Console.WriteLine("You have warped too far from home. You need to earn enough coins to get Home!");
             Thread.Sleep(5000);
             Console.Clear();
-
-        }
-
-        public void End()
-        {
-            Console.WriteLine("Game Over");
-            Console.ReadLine();
-        }
-        public void Win()
-        {
-            Console.WriteLine("You have made it home");
-
-            //home
-        }
-        public void Game()
-        {
-            //TODO
         }
 
         public void Options()
         {
+            Enumerations.Navigation choice;
             Console.WriteLine("Would you like to Buy, Sell, Travel, Check Inventory, or See Map?");
-            Console.WriteLine("Select 1 to Buy");
+            Console.WriteLine("Press 1 to Buy");
+            Console.WriteLine("Press 2 to Sell");
+            Console.WriteLine("Press 3 to Travel");
+            Console.WriteLine("Press 4 to Check Inventory");
+            Console.WriteLine("Press 5 to See Map");
+            Console.WriteLine("Press 6 to End Game");
+            choice = (Navigation) (Convert.ToInt32(Console.ReadLine()));
 
-            //link to inventory
-            Console.WriteLine("Select 2 to Sell");
-            //link to inventory
-            Console.WriteLine("Select 3 to Travel");
-            //options to Planets
-            //if statements for travel 
-            //if fuel < 2 cannot travel 
-            Console.WriteLine("Select 4 to Check Inventory");
-            //link to inventory
-            Console.WriteLine("Select 5 to See Map");
-            //im going to make map 
+            switch (choice)
+            {
+                case Navigation.Buy:
+                {
+                    //planetLocation();
+                    break;
+                }
 
-            string option = Console.ReadLine();
-            //switch methods 
-        
+                case Navigation.Sell:
+                {
+                    break;
+                }
 
+                case Navigation.Travel:
+                {
+                    int currentPlanet = CurrentLocation();
+                    break;
+                }
+
+                case Navigation.Inventory:
+                {
+                    break;
+                }
+
+                case Navigation.Map:
+                {
+                    break;
+                }
+
+                case Navigation.None:
+                {
+                    break;
+                }
+            }
+        }
+
+        //public int planetLocation()
+        //{
+        //    Planets 
+        //    switch ()
+        //    {
+        //        case Planets.Binopoly:
+        //        {
+        //            break;
+        //        }
+
+        //        case Planets.BugBay:
+        //        {
+        //            break;
+        //        }
+
+        //        case Planets.HashCity:
+        //        {
+        //            break;
+        //        }
+
+        //        case Planets.HeapStreet:
+        //        {
+        //            break;
+        //        }
+
+        //        case Planets.Typotopia:
+        //        {
+        //            break;
+        //        }
+        //    }
+        //}
+
+        public int CurrentLocation()
+        {
+            Console.WriteLine("Which planet would you like to warp to?");
+            Console.WriteLine("Press 1 to warp to Binopoly");
+            Console.WriteLine("Press 2 to warp to Bug Bay");
+            Console.WriteLine("Press 3 to warp to Hash City");
+            Console.WriteLine("Press 4 to warp to Heap Street");
+            Console.WriteLine("Press 5 to warp to Typotopia");
+            Console.WriteLine("Press 6 to End Game");
+
+            int currentLocation = Convert.ToInt32(Console.ReadLine());
+            return currentLocation;
+        }
     }
 }
-}
+
+
+

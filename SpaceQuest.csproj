@@ -43,20 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Binopoly.cs" />
-    <Compile Include="BugBay.cs" />
-    <Compile Include="HashCity.cs" />
-    <Compile Include="HeapStreet.cs" />
-    <Compile Include="Inventory.cs" />
-    <Compile Include="Menu.cs" />
-    <Compile Include="Planets.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Typotopia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceLibrary\SpaceLibrary.csproj">
+      <Project>{f2ee0f59-0e78-4ffe-a7fb-687ff5d67e5a}</Project>
+      <Name>SpaceLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
