@@ -1,0 +1,16 @@
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\SpaceTest.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\SpaceTest.pdb
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\santa\source\repos\SpaceTest\obj\Debug\SpaceTest.csprojAssemblyReference.cache
+C:\Users\santa\source\repos\SpaceTest\obj\Debug\SpaceTest.csproj.CoreCompileInputs.cache
+C:\Users\santa\source\repos\SpaceTest\obj\Debug\SpaceTest.csproj.CopyComplete
+C:\Users\santa\source\repos\SpaceTest\obj\Debug\SpaceTest.dll
+C:\Users\santa\source\repos\SpaceTest\obj\Debug\SpaceTest.pdb
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\SpaceLibrary.dll
+C:\Users\santa\source\repos\SpaceTest\bin\Debug\SpaceLibrary.pdb

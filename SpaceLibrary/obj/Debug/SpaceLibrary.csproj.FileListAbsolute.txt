@@ -1,0 +1,6 @@
+C:\Users\santa\source\repos\SpaceLibrary\obj\Debug\SpaceLibrary.csprojAssemblyReference.cache
+C:\Users\santa\source\repos\SpaceLibrary\obj\Debug\SpaceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\santa\source\repos\SpaceLibrary\bin\Debug\SpaceLibrary.dll
+C:\Users\santa\source\repos\SpaceLibrary\bin\Debug\SpaceLibrary.pdb
+C:\Users\santa\source\repos\SpaceLibrary\obj\Debug\SpaceLibrary.dll
+C:\Users\santa\source\repos\SpaceLibrary\obj\Debug\SpaceLibrary.pdb
