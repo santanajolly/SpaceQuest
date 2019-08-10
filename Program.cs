@@ -17,10 +17,6 @@ namespace Space_Game
             var menu = new Menu();
             menu.Start();
             menu.Options(player);
-            
-
-            
-
         }
     }
 
